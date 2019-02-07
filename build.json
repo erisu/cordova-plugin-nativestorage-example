@@ -1,0 +1,17 @@
+{
+  "ios": {
+    "debug": {
+      "codeSignIdentity": "iPhone Developer",
+      "developmentTeam": "ADD_DEVELOPMENT_TEAM",
+      "provisioningProfile": "ADD_PROVISIONING_PROFILE",
+      "packageType": "development",
+      "automaticProvisioning": false,
+      "buildFlag": [
+        "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES",
+        "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO",
+        "LD_RUNPATH_SEARCH_PATHS = \"@executable_path/Frameworks\"",
+        "-xcconfig=NONE"
+      ]
+    }
+  }
+}
